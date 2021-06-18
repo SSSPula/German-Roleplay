@@ -1,0 +1,21 @@
+{
+  // Variables Guide: https://github.com/saltminede/saltychat-docs/blob/master/setup.md#config-variables
+  "VoiceEnabled": true,
+  "ServerUniqueIdentifier": "z521lBKQFhrFROt2FoK/a1K8jiw=",
+  "MinimumPluginVersion": "",
+  "SoundPack": "default",
+  "IngameChannelId": 23,
+  "IngameChannelPassword": "grpundrprating.deWennDuDasLielgreichgedumped",
+  "SwissChannelIds": [ 6, 5, 4 ],
+  "VoiceRanges": [ 3, 8, 15],
+  "MegaphoneRange": 120.0,
+  "NamePattern": "[{serverid}] GermanRoleplay",
+  "RequestTalkStates": true,
+  "RequestRadioTrafficStates": false,
+
+  // Keybinds: https://docs.fivem.net/docs/game-references/controls/#controls
+  "ToggleRange": 243, // EnterCheatCode
+  "TalkPrimary": 137, // PushToTalk
+  "TalkSecondary": 249, // VehiclePushbikeSprint
+  "TalkMegaphone": 29 // SpecialAbilitySecondary
+}

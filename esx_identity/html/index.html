@@ -1,0 +1,101 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>GRP Charerstellung</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="font/flaticon.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+</head>
+
+<body>
+ <div class="section">
+        <div class="frame">
+            <div class="login">
+                <div class="login--bg">
+                    <img src="bilder/bg.png" alt="">
+                </div>
+                <div class="login__header">
+                    <div class="login__header--cont">
+                        <span class="back-button">
+                            <i class="fas fa-chevron-left"></i>
+                        </span>
+                        <span class="logo">
+                           <img src="bilder/logo.png" width="80"></img>
+                        </span>
+                        <div class="user">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="login__content">
+                    
+                    <h3 class="login--title">Willkommen auf GRP</h3>
+                    <form id="register" class="login--form">
+
+                        <div class="input--item">
+                            <div class="js-input__content input__content has-error">
+                                <input id="firstname" type="text" class="form__input js-input js-input-error" placeholder="Vorname">
+                            </div>
+                        </div>
+
+                        <div class="input--item">
+                            <div class="js-input__content input__content has-error">
+                                <input id="lastname" type="text" class="form__input js-input js-input-error" placeholder="Nachname">
+                            </div>
+                        </div>
+						
+						<div class="input--item">
+                            <div class="js-input__content input__content has-error">
+                                <input id="dateofbirth" type="date" class="form__input js-input js-input-error" placeholder="Geburtsdatum">
+                            </div>
+                        </div>
+						
+						<div class="input--item">
+                            <div class="js-input__content input__content has-error">
+                                <input id="height" type="number" class="form__input js-input js-input-error" placeholder="Größe in cm">
+                            </div>
+                        </div>
+						
+                        <center><input id="sex" type="radio" value="m" name="sex" checked><span class="remember--check--txt"> Männlich </span> <font color=green><b>oder</b></font>	  
+		                       <input id="sex" type="radio" value="f" name="sex"><span class="remember--check--txt"> Weiblich</span><br></center>
+
+                        <button id="submit" type="submit" class="login--button">EINREISEN</button>
+
+                    </form>
+                    <div class="register--social">
+                        <span class="register--or">INFO</span>
+                        <div class="register--container">
+                            <span class="register--item">
+                                <i class="fab fa-discord"></i>
+                            </span>
+                            <h5 style='color: white;'>discord.link/grp</h5><!-- Your Link Discord -->
+                        </div>
+                    </div>
+                    <div class="login__pagination">
+                        <div class="pagination--item active"></div>
+                        <div class="pagination--item"></div>
+                        <div class="pagination--item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>    
+    <script src="js/validator.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'>
+</body>
+</html>

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.container {
+    background: #141821;
+    width: 100%;
+    height: 90%;
+    position:absolute;
+    top:5%;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background: #355A8F;
+    color: #FFF;
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    padding-left: 12px;
+}
+
+.subheader {
+    width: 100%;
+    height: 26px;
+    text-align: right;
+    color: #FFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 6px;
+}
+
+.subcontainer {
+    width: 100%;
+    overflow: hidden;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    height: calc(100% - 92px);
+    margin: 0;
+}
+
+.main {
+    float: right;
+    width: 75%;
+    height: calc(100% - 92px);
+    margin: 0;
+}
+
+.main iframe {
+    height: calc(100% + 1px);
+    width: 100%;
+    border: none;
+}
+
+.itemContainer {
+    background: #21242D;    
+    width: 100%;
+    height: 60px;
+    margin-bottom: 2px;
+    display: flex;
+    cursor: pointer;
+}
+
+.itemContainer:hover {
+	transition: all 0.5s;
+    background: #2F66FF
+}
+
+.iconContainer {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+}
+
+.icon {
+    display: inline-block;
+    background: #3F3F42;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #FFF;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.icon i {
+    line-height: 40px;
+}
+
+.itemTitle {
+    height: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: flex;
+    color: #FFF;
+}
+
+.itemSub {
+    height: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFF;
+}
+
+.itemTitle p {
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+}
+
+.itemSub p {
+    margin: 0;
+    padding: 0;
+    align-self: flex-start;
+}
+
+.itemTextContainer {
+    width: calc(100% - 64px);
+    display: inline-block;
+}

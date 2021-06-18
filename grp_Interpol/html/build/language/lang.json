@@ -1,0 +1,53 @@
+{
+	"homepage": {
+		"title": "GRP INTERPOL",
+		"welcome_message": "Willkommen, ",
+		"create_license": "Lizenz verteilen",
+		"license_database": "Interpol Datenbank"
+	},
+	"licensedb": {
+		"title": "Interpol Datenbank",
+		"header": {
+			"number": "",
+			"name": "Name",
+			"licenses": "Lizenzen",
+			"manage": "Verwalten"
+		},
+		"manage_button": "Verwalten",
+		"back_button": "zurück",
+		"search_textfield": "Suchen"
+	},
+	"createlicense": {
+		"title": "Lizenz verteilen",
+		"textfields": {
+			"player_id": "Spieler ID",
+			"license_type": "Lizenztyp"
+		},
+		"error_submit": "Du musst alles ausfüllen",
+		"submit_button": "absenden",
+		"cancel_button": "Abbrechen",
+		"second_title": "Interpol Information",
+		"informationfields": {
+			"first_name": "Vorname",
+			"last_name": "Nachname",
+			"dob": "Geburtsdatum",
+			"height": "Höhe",
+			"phone_number": "Tel",
+			"sex": "Geschlecht"
+		}
+	},
+	"managelicense": {
+		"title": "Interpol Datenbank",
+		"license_type": "Lizenztyp",
+		"revoke_button": "entziehen",
+		"cancel_button": "abbrechen",
+		"informationfields": {
+			"first_name": "Vorame",
+			"last_name": "Nachname",
+			"dob": "Geburtsdatum",
+			"height": "Höhe",
+			"phone_number": "Tel",
+			"sex": "Geschlecht"
+		}
+	}
+}

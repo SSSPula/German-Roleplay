@@ -1,0 +1,89 @@
+Config                      = {}
+Config.RaceCost             = 400                                                   -- How much it should cost to start a race.
+Config.MaxOffCourse         = 800                                                   -- How far away from off the racing course the player can go.
+Config.RaceVehicle          = 'trophytruck'                                         -- The vehicle to spawn and race in.
+Config.CheckpointMarker     = 6                                                     -- Marker type for checkpoint circles.
+Config.StartMarker          = 27                                                    -- Marker type for starting the race.
+Config.ScoreMarker          = 27                                                    -- Marker type for the scoreboard.
+Config.SpawnHeading         = 358.0                                                 -- What heading the vehicle should have when spawning.
+Config.SpawnCoords          = vector3(2392.4104003906,3160.6989746094,45.966762542725)                       -- Coordinates to spawn the vehicle at.
+Config.StartCoords          = vector3(2363.3986816406,3164.1762695312,47.315354156494)                      -- Coordinates where the player can start the race.
+Config.ScoreCoords          = vector3(2338.7744140625,3144.4084472656,47.200992584229)                      -- Coordinates where players can see scoreboard.
+Config.TextStrings          = {                                                     -- Texts that are displayed to the user.
+    Start       = 'Drücke ~INPUT_CONTEXT~ um das Rennen zu starten! (~g~$~w~'..Config.RaceCost..')',
+    Scoreboard  = 'Drücke ~INPUT_CONTEXT~ um die Bestenliste einzusehen!',
+    Prepare     = '~r~SEI BEREIT!',
+    Footer      = '~r~WER BREMST VERLIERT!!',
+    Go          = '~g~LOS!',
+    InProgress  = 'Es fährt bereits jemand! Warte 10 Sekunden dann bist du dran! ',
+    OffCourse   = 'Rennen fehlgeschlagen!',
+    NoMoney     = 'Du hast nicht genug Geld!'
+}
+
+
+Config.MapMarkers           = {                                                     -- Settings for race and scoreboard markers.
+    [1] = {
+        Coords  = Config.StartCoords,
+        Sprite  = 127,
+        Display = 4,
+        Scale   = 1.0,
+        Colour  = 4,
+        Name    = 'Sandy Shores HUB Rallye'
+    },
+    [2] = {
+        Coords  = Config.ScoreCoords,
+        Sprite  = 304,
+        Display = 4,
+        Scale   = 1.0,
+        Colour  = 4,
+        Name    = 'Sandy HUB Bestenliste'
+    }
+}
+Config.VehicleMods          = {                                                     -- Mods to apply to the racing vehicle.
+    modEngine       = 2,
+    modBrakes       = 2,
+    modTransmission = 2,
+    modSuspension   = 3,
+    modTurbo        = true,
+    modLivery       = 0
+}
+Config.Checkpoints          = {                                                     -- All race checkpoints.
+    [1]  = vector3(2364.8610839844,3208.1408691406,47.045482635498),
+    [2]  = vector3(2280.9396972656,3239.9206542969,51.349784851074),
+    [3]  = vector3(2157.109375,3264.1669921875,48.196636199951),
+    [4]  = vector3(2037.8702392578,3322.8442382812,45.658409118652),
+    [5]  = vector3(2060.2727050781,3404.8474121094,44.660274505615),
+    [6]  = vector3(2041.9506835938,3448.3449707031,43.61177444458),
+    [7]  = vector3(2054.9604492188,3368.0310058594,45.417850494385),
+    [8]  = vector3(2039.6566162109,3307.8000488281,45.671028137207),
+    [9]  = vector3(2075.43359375,3282.7646484375,45.418636322021),
+    [10] = vector3(2046.548828125,3205.9587402344,50.724468231201),
+    [11] = vector3(1988.6303710938,3110.443359375,46.828304290771),
+    [12] = vector3(1936.2666015625,3049.791015625,46.294284820557),
+    [13] = vector3(1724.5130615234,2880.9340820312,48.277866363525),
+    [14] = vector3(1476.7979736328,2723.6884765625,41.680438995361),
+    [15] = vector3(1253.0472412109,2681.802734375,37.322597503662),
+    [16] = vector3(1143.4558105469,2690.6135253906,37.92631149292),
+    [17] = vector3(1127.9041748047,2772.40234375,40.223575592041),
+    [18] = vector3(1131.4228515625,2872.220703125,38.985832214355),
+    [19] = vector3(1189.2734375,2972.8012695312,40.261402130127),
+    [20] = vector3(1274.2496337891,2965.7797851562,40.788799285889),
+    [21] = vector3(1396.5627441406,2960.4821777344,40.916042327881),
+    [22] = vector3(1480.9273681641,3029.4055175781,40.694995880127),
+    [23] = vector3(1593.8774414062,3108.1484375,41.151786804199),
+    [24] = vector3(1706.7698974609,3147.1640625,43.183258056641),
+    [25] = vector3(1820.6529541016,3191.5869140625,44.568298339844),
+    [26] = vector3(1944.7774658203,3265.2048339844,45.276290893555),
+    [27] = vector3(2086.2651367188,3281.1042480469,45.447624206543),
+    [28] = vector3(2238.5512695312,3263.8112792969,47.706733703613),
+    [29] = vector3(2243.1145019531,3373.138671875,51.714099884033),
+    [30] = vector3(2250.7873535156,3431.6391601562,62.680397033691),
+    [31] = vector3(2360.4736328125,3501.5029296875,70.666473388672),
+    [32] = vector3(2396.9929199219,3516.3928222656,69.87606048584),
+    [33] = vector3(2460.2580566406,3437.9350585938,49.736419677734),
+    [34] = vector3(2622.0952148438,3358.7009277344,55.723583221436),
+    [35] = vector3(2535.3979492188,3230.4692382812,52.022754669189),
+    [36] = vector3(2367.6921386719,3207.7614746094,46.924728393555),
+    [37] = vector3(2392.2409667969,3168.927734375,46.54320526123)
+}
+Config.LicenseKey           = '43BB-FEC2-5D7B-F667-DFAD'

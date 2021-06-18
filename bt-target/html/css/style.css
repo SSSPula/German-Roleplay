@@ -1,0 +1,48 @@
+.target-wrapper {
+    display: none;
+}
+
+.target-eye {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 3vh;
+	  animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+
+.target-label-wrapper {
+    position: absolute;
+    right: 82vh;
+    top: 54vh;
+    margin-top: -13px;
+    width: 11vh;
+}
+
+.target-label {
+    list-style: none;
+    font-size: 1.3vh;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    text-transform: uppercase;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.target-icon {
+    color: rgb(30,144,255);
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

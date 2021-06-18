@@ -1,0 +1,21 @@
+Locales['en'] = {
+   ['duty'] = 'Gehe in oder ausser Dienst',
+   ['duty_select'] = 'Möchtest Du den Dienst betreten oder beenden?',
+   ['leave'] = 'Leave job.',
+   ['yes'] = 'Ja',
+   ['no'] = 'Nein',
+   ['onduty'] = 'In den Dienst gehen',
+   ['offduty'] = 'Ausser Dienst gehen',
+   ['press_open'] = 'Drücke ~g~[E] ~w~ um Dich ein/auszustempeln.',
+   ['log_in'] = 'Gehe in den Dienst ...',
+   ['log_off'] = 'Gehe ausser Dienst ...',
+   ['leave_true'] = 'You are signing your resignation ...',
+   ['leave_menu'] = 'Do you want to resign?',
+   ['duty_menu'] = 'Was möchtest Du machen?',
+   ['on_success'] = 'Du bist nun im Dienst.',
+   ['off_success'] = 'Du bist nun ausser Dienst.',
+   ['on_duty'] = 'ist im Dienst.',
+   ['off_duty'] = 'ist ausser Dienst.',
+   ['resign'] = 'signed resignation', 
+	
+}

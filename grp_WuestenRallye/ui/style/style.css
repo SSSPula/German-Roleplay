@@ -1,0 +1,43 @@
+body {
+    overflow: hidden;
+    background-color: transparent !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    overflow: hidden;
+    background-color: transparent !important;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+#tbody {
+	color:white;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.text-format {
+    white-space: pre-wrap;
+}
+
+#main-container {
+   display: none;
+}
+
+
+#race-card {
+	background-image: url(../bilder/bg.png);
+	background-position:center;
+    min-height: 810px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html style='background-color: transparent !important;'>
+
+<head>
+    <!-- #region CDN stuff -->
+    <meta charset='UTF-8'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/css/uikit.min.css' />
+    <script src='https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/js/uikit.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/js/uikit-icons.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-duration-format/2.3.2/moment-duration-format.min.js" integrity="sha512-ej3mVbjyGQoZGS3JkES4ewdpjD8UBxHRGW+MN5j7lg3aGQ0k170sFCj5QJVCFghZRCio7DEmyi+8/HAwmwWWiA==" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js' integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==' crossorigin='anonymous'></script>
+    <!-- #endregion -->
+    <!-- #region Custom -->
+    <link rel='stylesheet' href='style/style.css' />
+    <script src='js/script.js'></script>
+    <!-- #endregion -->
+</head>
+
+<body style='background-color: transparent !important;'>
+    <div class='uk-position-center uk-animation-fade' id='main-container'>
+        <div class='uk-card uk-card-default uk-card-body uk-width-2xlarge uk-border-rounded' id='race-card'>
+            <h3 class='uk-card-title'><p style="color:#FFFFFF">SANDY SHORES RALLYE BESTENLISTE</p></h3>
+            <table class='uk-table uk-table-divider'>
+                <thead>
+                    <tr>
+                        <th><p style="color:#FFFFFF">Platz</p></th>
+                        <th><p style="color:#FFFFFF">Name</p></th>
+                        <th><p style="color:#FFFFFF">Zeit</p></th>
+                        <th><p style="color:#FFFFFF">Datum</p></th>
+                    </tr>
+                </thead>
+                <tbody id='tbody'>
+                </tbody>
+            </table>
+            <ul class="uk-pagination uk-position-bottom uk-padding">
+                <li id="previous"><a><span class="uk-margin-small-right" uk-pagination-previous></span><p style="color:#FFFFFF"> Zurück</p></a></li>
+                <li class="uk-margin-auto-left" id="next"><a><p style="color:#FFFFFF">Weiter </p><span class="uk-margin-small-left" uk-pagination-next></span></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
